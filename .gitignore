@@ -36,6 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# demo data store (bookings/quotes saved locally)
+/data/*.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.next-old-*/
